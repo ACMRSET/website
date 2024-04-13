@@ -7,9 +7,11 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 
 """The routes"""
-@app.route("/", "/home")
+@app.route("/")
+@app.route("/home")
 def home_route() :
-    pass
+    
+    return render_template("home-page.html")
 
 
 @app.route("/events")
@@ -18,10 +20,14 @@ def events_route() :
 
 
 @app.route("/team")
-def events_route() :
+def team_route() :
     pass
 
 
 @app.route("/contact")
 def contact_route() :
     pass
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
