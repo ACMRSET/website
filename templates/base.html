@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title></title>
+</head>
+<body>
+    <div class="nav-div">
+
+        <div class="acmlogo-div"></div>
+        <div class="mid-div">
+
+            <nav class="navvi">
+                <!-- had to give this here  -->
+
+                {% set navname= ["Home","Events","Team","Contact"] %}
+                {% set navref = ["home","events","team","contact"] %}
+
+                <ul>
+                {% for i in navname %}
+                    
+                    <a class=nav-anchor href="/{{ navref[loop.index0] }}">{{i}} {{loop.index}}</a>
+
+                {% endfor %}
+                
+                    
+                </ul>
+            </nav>
+
+        </div>
+        <div class="rset-div"></div>
+
+    </div>
+
+
+    {% block content %}
+
+
+
+    {% endblock %}
+</body>
+</html>
