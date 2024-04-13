@@ -5,14 +5,23 @@
     
     width:100%;
     height: 220px;
-    background-color: aqua;
+    background-color: #F1F1F1;
+
+    border-radius: 0 0 30px 30px;
     
 
 }
 .nav-div .acmlogo-div{
-    width: 250px;
-
+    width: 220px;
+    padding-left: 55px;
 }
+
+.acmlogo-div img {
+    width: 90%;
+    height: auto;
+}
+
+
 .nav-div .mid-div{
     flex : 1;
     height: inherit;
@@ -44,3 +53,10 @@ ul {
 
 }
 
+
+.nav-div .rset-div img {
+    padding-top: 24px;
+    padding-right: 5px;
+    width: 382px;
+    height: auto;
+}
