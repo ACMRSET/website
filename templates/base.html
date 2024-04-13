@@ -12,7 +12,7 @@
         <div class="acmlogo-div"></div>
         <div class="mid-div">
 
-            <nav class="navvi">
+            <nav class="navvi-link-holder">
                 <!-- had to give this here  -->
 
                 {% set navname= ["Home","Events","Team","Contact"] %}
@@ -21,7 +21,7 @@
                 <ul>
                 {% for i in navname %}
                     
-                    <a class=nav-anchor href="/{{ navref[loop.index0] }}">{{i}} {{loop.index}}</a>
+                    <a class=nav-anchor href="/{{ navref[loop.index0] }}">{{i}}</a>
 
                 {% endfor %}
                 

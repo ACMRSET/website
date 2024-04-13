@@ -21,12 +21,24 @@
     flex-direction: row;
     align-items: flex-end;
 }
-
-.navvi a {
-
-    height: 100px;
+ul {
+    list-style: none;
 
 }
+.navvi-link-holder a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px 20px;
+    font-size: 24px
+
+}
+.navvi-link-holder a:hover {
+    background: grey;
+
+}
+
 .nav-div .rset-div{
     width: 382px;
 
