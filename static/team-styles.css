@@ -1,14 +1,29 @@
+
+.student-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
 .student-container{
 
     width: 550px;
     height: 333px;
-    background-color: aquamarine;
+    background-color: rgb(139, 169, 159);
     display: flex;
     flex-direction: row;
     border-radius: 15px;
     
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
 
 .text-div{
     flex-grow: 1;
@@ -35,6 +50,6 @@
 }
 .img-container img{
     width: 110%;
-    height: 110%;
+    height: 105%;
     border-radius: 15px
 }

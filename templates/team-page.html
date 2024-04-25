@@ -5,20 +5,26 @@
 {% block content %}
     <link rel="stylesheet" href="/static/team-styles.css">
     <!-- student member structure -->
+    
+    <section class="student-section">
 
+    <h1>EXECom</h1>
 
+    {% for i in image_list %}
 
     <div class="student-container">
         <div class="text-div">
-            <span class="student-name">Name Middle Last</span>
-            <span class="student-position">Position</span>
+            <span class="student-name">{{i['name']}}</span>
+            <span class="student-position">{{i['position']}}</span>
         </div>
         <div class="img-container">
-            <img src="static/assets/placeholder.jpg" alt="">
+            <img src="{{i['path']}}" alt="">
         </div>
     </div>
 
+    {% endfor %}
     
+    </section>
     
 
 {% endblock %}

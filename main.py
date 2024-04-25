@@ -21,7 +21,20 @@ def events_route() :
 
 @app.route("/team")
 def team_route() :
-    return render_template("team-page.html")
+
+    # Ordered
+    image_list = [
+        {"name":"Nikhil Stephen","position":"Chair","path":"static/assets/team-members/nikhil-stephen.jpg"},
+        {"name":"Rachel Jacob","position":"Vice Chair","path":"static/assets/team-members/rachel-jacob.jpg"},
+        {"name":"Gautham C Sudheer","position":"Secretary","path":"static/assets/team-members/gautham-c.jpg"},
+        {"name":"Niveditha B","position":"Joint Secretary","path":"static/assets/team-members/niveditha-b.jpg"},
+        {"name":"Kevin Benny","position":"Joint Secretary","path":"static/assets/team-members/kevin-benny.jpg"},
+        {"name":"Hrithika Harish","position":"Treasurer","path":"static/assets/team-members/hritika-harish.jpg"},
+        
+
+    ]
+
+    return render_template("team-page.html",image_list = image_list)
     
 
 
