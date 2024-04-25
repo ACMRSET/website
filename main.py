@@ -21,7 +21,8 @@ def events_route() :
 
 @app.route("/team")
 def team_route() :
-    pass
+    return render_template("team-page.html")
+    
 
 
 @app.route("/contact")

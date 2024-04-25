@@ -1,0 +1,40 @@
+.student-container{
+
+    width: 550px;
+    height: 333px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    
+}
+
+
+.text-div{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.student-name{
+    font-size: 2rem;
+    padding: 10px;
+}
+.student-position{
+    font-size: 1rem;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+
+
+.img-container{
+
+    width: 213px;
+    height: 333px;
+}
+.img-container img{
+    width: 110%;
+    height: 110%;
+    border-radius: 15px
+}
