@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.student-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
 .student-container{
@@ -18,11 +22,14 @@
     
     margin-top: 50px;
     margin-bottom: 50px;
+
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h1{
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .text-div{
@@ -32,11 +39,13 @@ h1{
     flex-direction: column;
 }
 .student-name{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
     padding: 10px;
 }
 .student-position{
-    font-size: 1rem;
+    font-size: 1.2rem;
+    opacity: 80%;
     padding: 10px;
     padding-top: 10px;
 }
