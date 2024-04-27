@@ -14,13 +14,14 @@
     {% for i in image_list %}
 
     <div class="student-container">
+        <div class="img-container">
+            <img src="{{i['path']}}" alt="">
+        </div>
         <div class="text-div">
             <span class="student-name">{{i['name']}}</span>
             <span class="student-position">{{i['position']}}</span>
         </div>
-        <div class="img-container">
-            <img src="{{i['path']}}" alt="">
-        </div>
+        
     </div>
 
     {% endfor %}
