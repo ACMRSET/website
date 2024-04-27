@@ -62,3 +62,12 @@ h1{
     height: 105%;
     border-radius: 15px
 }
+
+
+@media screen and (max-width: 1000px) {
+    
+.student-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+  }
