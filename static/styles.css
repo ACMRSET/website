@@ -26,6 +26,7 @@ body{
 }
 
 .nav-div .acmlogo-div{
+    min-width: 220px;
     width: 220px;
     padding-left: 55px;
 }
@@ -38,6 +39,7 @@ body{
 
 
 .nav-div .mid-div{
+    min-width: 512px;
     flex : 1;
     height: inherit;
     width: auto;
@@ -48,7 +50,7 @@ body{
 
 .heading-div{
     transition: all 0.4s;
-    margin-top: -10px;
+    margin-top: -50px;
     margin-bottom: -50px;
     margin-left: 60px;
 
@@ -58,7 +60,8 @@ body{
     
     font-size: 4rem;
     font-weight: 600;
-    line-height: 1px;
+    
+    
     
 }
 
@@ -86,6 +89,7 @@ ul {
 }
 
 .nav-div .rset-div{
+    min-width: 390px;
     width: 390px;
 
 }
