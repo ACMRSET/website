@@ -16,7 +16,7 @@ def home_route() :
 
 @app.route("/events")
 def events_route() :
-    pass
+    return render_template("events.html")
 
 
 @app.route("/team")
@@ -40,7 +40,7 @@ def team_route() :
 
 @app.route("/contact")
 def contact_route() :
-    pass
+    return render_template("contact.html")
 
 
 if __name__ == "__main__":
