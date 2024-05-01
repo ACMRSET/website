@@ -24,12 +24,12 @@ def team_route() :
 
     # Ordered
     image_list = [
-        {"name":"Nikhil Stephen","position":"Chair","path":"static/assets/team-members/nikhil-stephen.jpg"},
-        {"name":"Rachel Jacob","position":"Vice Chair","path":"static/assets/team-members/rachel-jacob.jpg"},
-        {"name":"Gautham C Sudheer","position":"Secretary","path":"static/assets/team-members/gautham-c.jpg"},
-        {"name":"Niveditha B","position":"Joint Secretary","path":"static/assets/team-members/niveditha-b.jpg"},
-        {"name":"Kevin Benny","position":"Joint Secretary","path":"static/assets/team-members/kevin-benny.jpg"},
-        {"name":"Hrithika Harish","position":"Treasurer","path":"static/assets/team-members/hritika-harish.jpg"},
+        {"name":"Nikhil Stephen","position":"Chair","path":"static/assets/team-members/nikhil-stephen.jpg","branch":"S6 CS"},
+        {"name":"Rachel Jacob","position":"Vice Chair","path":"static/assets/team-members/rachel-jacob.jpg","branch":"S6 CS"},
+        {"name":"Gautham C Sudheer","position":"Secretary","path":"static/assets/team-members/gautham-c.jpg","branch":"S6 CS"},
+        {"name":"Niveditha B","position":"Joint Secretary","path":"static/assets/team-members/niveditha-b.jpg","branch":"S6 CS"},
+        {"name":"Kevin Jacob","position":"Joint Secretary","path":"static/assets/team-members/kevin-benny.jpg","branch":"S6 AIDS"},
+        {"name":"Hrithika Harish","position":"Treasurer","path":"static/assets/team-members/hritika-harish.jpg","branch":"S6 CS"},
         
 
     ]
