@@ -5,6 +5,11 @@
 body{
     padding-top: 220px;
 }
+.wrapper{
+    margin-right: auto;
+  margin-left: auto;
+  max-width:1160px;
+}
 
 .nav-div{
     display:flex;
@@ -12,9 +17,9 @@ body{
     
     width:100%;
     
-    background-color: #F1F1F1;
+    background-color: #ffffff;
 
-    border-radius: 0 0 30px 30px;
+    /* border-radius: 0 0 30px 30px; */
 
     top:0;
     position: fixed;
