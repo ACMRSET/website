@@ -1,0 +1,6 @@
+rough.py
+.env
+*.json
+*.pickle
+generate_token.py
+__pycache__
