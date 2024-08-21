@@ -6,7 +6,6 @@ importlib-metadata
 itsdangerous
 jinja2
 markupsafe
-openssl
 pip
 readline
 setuptools
