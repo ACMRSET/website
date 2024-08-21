@@ -1,5 +1,5 @@
 blinker
-ca-certificates
+certifi
 click
 flask
 importlib-metadata
