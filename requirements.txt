@@ -5,10 +5,6 @@ flask
 importlib-metadata
 itsdangerous
 jinja2
-libffi
-libgcc-ng
-libgomp
-libstdcxx-ng
 markupsafe
 ncurses
 openssl
