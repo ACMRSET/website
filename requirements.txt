@@ -9,7 +9,6 @@ markupsafe
 pip
 readline
 setuptools
-sqlite
 werkzeug
 wheel
 gunicorn
